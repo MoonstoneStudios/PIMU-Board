@@ -2446,7 +2446,7 @@
 	)
 	(text "This is so we can test the teensy when not plugged into USB"
 		(exclude_from_sim no)
-		(at 227.838 129.286 0)
+		(at 222.504 29.464 0)
 		(effects
 			(font
 				(size 1.27 1.27)
