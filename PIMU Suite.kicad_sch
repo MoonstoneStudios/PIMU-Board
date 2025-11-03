@@ -241,6 +241,197 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "RSX:BMP280"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BMP"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "BMP280"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BMP280_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "BMP280_1_1"
+				(pin power_in line
+					(at -7.62 3.81 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "3Vo"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -1.27 0)
+					(length 2.54)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -7.62 -3.81 0)
+					(length 2.54)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -6.35 0)
+					(length 2.54)
+					(name "SDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -8.89 0)
+					(length 2.54)
+					(name "CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -7.62 -11.43 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RSX:ICM20649_Breakout"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -855,197 +1046,6 @@
 						(effects
 							(font
 								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "RSX:MPRLS_Pressure"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "PRESSURE"
-				(at 0.508 12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "MPRLS"
-				(at 0.508 10.414 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MPRLS_Pressure_0_1"
-				(rectangle
-					(start -3.81 8.89)
-					(end 5.08 -8.89)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "MPRLS_Pressure_1_1"
-				(pin power_in line
-					(at -6.35 7.62 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -6.35 5.08 0)
-					(length 2.54)
-					(name "3Vo"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -6.35 2.54 0)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -6.35 -2.54 0)
-					(length 2.54)
-					(name "EOC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -6.35 -5.08 0)
-					(length 2.54)
-					(name "RST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -6.35 -7.62 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
 							)
 						)
 					)
@@ -2512,16 +2512,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 96.52) (xy 213.36 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1316a667-e39e-4575-9d26-60efda222ef8")
-	)
-	(wire
-		(pts
 			(xy 196.85 104.14) (xy 196.85 48.26)
 		)
 		(stroke
@@ -2659,6 +2649,16 @@
 			(type default)
 		)
 		(uuid "58106f7d-4add-4a27-8476-15bcec2cd0d9")
+	)
+	(wire
+		(pts
+			(xy 190.5 99.06) (xy 213.36 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ede8869-d118-4ed0-909f-240315d04415")
 	)
 	(wire
 		(pts
@@ -2852,7 +2852,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 96.52) (xy 190.5 80.01)
+			(xy 190.5 80.01) (xy 190.5 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2979,91 +2979,6 @@
 			(justify right bottom)
 		)
 		(uuid "f2522014-f9f8-49c9-9d55-1922a03232dc")
-	)
-	(symbol
-		(lib_id "RSX:MPRLS_Pressure")
-		(at 219.71 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2e45937b-3cfb-42f7-b173-61fc81584c2e")
-		(property "Reference" "PRESSURE1"
-			(at 220.218 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "MPRLS"
-			(at 226.06 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RSX:MPRLS_Pressure"
-			(at 219.71 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 219.71 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "06da416f-6b5c-4b3c-b296-4abb2a94d65a")
-		)
-		(pin "6"
-			(uuid "3a97fac1-7066-4623-a038-09aaab62792c")
-		)
-		(pin "3"
-			(uuid "6f90b187-ce53-40d9-974f-95afbb964738")
-		)
-		(pin "1"
-			(uuid "c4594ae1-d6d2-48c5-8ff3-25c80f083ccf")
-		)
-		(pin "4"
-			(uuid "d63767bf-25a1-4146-8f79-3823ab7f4d58")
-		)
-		(pin "7"
-			(uuid "93ea12b3-6ef3-47d9-b26b-ac24648e9ff5")
-		)
-		(pin "2"
-			(uuid "e70869ce-b845-45bf-87e2-4c16c632ba76")
-		)
-		(instances
-			(project ""
-				(path "/f92a9e59-93af-435a-9a9e-44bda57be41a"
-					(reference "PRESSURE1")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "RSX:ICM20649_Breakout")
@@ -3701,6 +3616,91 @@
 			(project ""
 				(path "/f92a9e59-93af-435a-9a9e-44bda57be41a"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RSX:BMP280")
+		(at 220.98 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efa6eb5b-a9e4-4647-9eda-fa15d431ef8c")
+		(property "Reference" "BMP1"
+			(at 220.98 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "BMP280"
+			(at 227.33 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RSX:BMP280"
+			(at 220.98 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bb54d2a2-a412-42ab-aacf-badb5a8b209a")
+		)
+		(pin "3"
+			(uuid "c3028a05-2473-403f-bd90-98817bfa62d7")
+		)
+		(pin "4"
+			(uuid "950f3ec0-7d82-4375-9712-35e50eb4f19e")
+		)
+		(pin "5"
+			(uuid "5c395a3d-208b-47c3-a425-9bb519c962a9")
+		)
+		(pin "6"
+			(uuid "e95dc87e-b895-460b-90ac-d7aff2b4181c")
+		)
+		(pin "1"
+			(uuid "9a34514b-395c-47cb-be57-0845e7a047e9")
+		)
+		(pin "7"
+			(uuid "93b00215-afb7-4c1f-bd8d-6fcf38dd90f7")
+		)
+		(instances
+			(project ""
+				(path "/f92a9e59-93af-435a-9a9e-44bda57be41a"
+					(reference "BMP1")
 					(unit 1)
 				)
 			)
