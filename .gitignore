@@ -43,3 +43,4 @@ fp-info-cache
 BoardVersions/
 SchematicVersions/
 *.lck
+PIMU Suite-backups/
