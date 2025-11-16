@@ -2454,6 +2454,16 @@
 		)
 		(uuid "408ea967-8eb1-47e2-aacc-eb852a2666f1")
 	)
+	(text "Note: Adafruit labeled this \nas 3V when its really 3.3V"
+		(exclude_from_sim no)
+		(at 114.046 37.084 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d09be331-7660-4911-b18f-8c04a916a687")
+	)
 	(junction
 		(at 205.74 67.31)
 		(diameter 0)
