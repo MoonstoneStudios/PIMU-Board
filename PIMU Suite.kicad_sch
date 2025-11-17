@@ -2837,6 +2837,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 36.83) (xy 52.07 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "136319c3-a203-437d-8770-38cd9213c60c")
+	)
+	(wire
+		(pts
 			(xy 194.31 104.14) (xy 217.17 104.14)
 		)
 		(stroke
@@ -3007,6 +3017,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 77.47) (xy 99.06 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b1db917-9008-4c88-a428-05bcc31e0b56")
+	)
+	(wire
+		(pts
 			(xy 194.31 77.47) (xy 194.31 104.14)
 		)
 		(stroke
@@ -3034,16 +3054,6 @@
 			(type default)
 		)
 		(uuid "9477eec8-9e85-405e-ab58-0983ca7b23fa")
-	)
-	(wire
-		(pts
-			(xy 172.72 64.77) (xy 186.69 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9799b62a-2d95-4c97-845b-a23b201ac10f")
 	)
 	(wire
 		(pts
@@ -3137,6 +3147,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 36.83) (xy 52.07 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8657856-5eb8-49a1-8e4c-bfcef65c4925")
+	)
+	(wire
+		(pts
 			(xy 43.18 86.36) (xy 52.07 86.36)
 		)
 		(stroke
@@ -3217,6 +3237,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 77.47) (xy 99.06 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f939a74e-5a6a-4f82-a3cf-e861dd078a8b")
+	)
+	(wire
+		(pts
 			(xy 105.41 59.69) (xy 113.03 59.69)
 		)
 		(stroke
@@ -3234,16 +3264,6 @@
 			(type default)
 		)
 		(uuid "fd42b47f-03b4-40c6-b573-f163cbbde4e1")
-	)
-	(wire
-		(pts
-			(xy 186.69 55.88) (xy 186.69 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd509e03-d95e-4e7b-bd92-ad287923bd27")
 	)
 	(wire
 		(pts
@@ -3348,28 +3368,6 @@
 		(uuid "002f148a-9787-4f4b-b6d4-24a8108bbe9e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 160.02 19.8143 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3V3 IN"
-		(shape input)
-		(at 186.69 55.88 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "30e55a83-c0f9-47a3-9006-14b4128dc906")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.69 46.4843 90)
 			(effects
 				(font
 					(size 1.27 1.27)
