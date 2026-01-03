@@ -4105,7 +4105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "GND"
 			(at 102.87 54.61 0)
 			(effects
 				(font
@@ -4277,7 +4277,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "~65Ω"
 			(at 147.32 30.48 90)
 			(effects
 				(font
@@ -4438,7 +4438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ICM20649 IMU"
 			(at 231.14 76.2 0)
 			(effects
 				(font
@@ -5509,7 +5509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "PWR"
 			(at 139.7 34.29 0)
 			(effects
 				(font
@@ -5653,7 +5653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SD Card Breakout"
 			(at 67.31 83.82 0)
 			(effects
 				(font
