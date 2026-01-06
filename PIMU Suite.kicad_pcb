@@ -214,9 +214,9 @@
 		(descr "JST VH PBT series connector, B4P-VH-B (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST VH vertical")
 		(property "Reference" "JST1"
-			(at 5.94 -4.9 270)
+			(at 5.94 -4.9 90)
 			(layer "F.SilkS")
-			(uuid "67207b2e-5a4d-4f58-94f9-afa917a300e3")
+			(uuid "b0e090c5-76e7-4c4e-ba4c-c2640e324a7d")
 			(effects
 				(font
 					(size 1 1)
@@ -224,10 +224,10 @@
 				)
 			)
 		)
-		(property "Value" "S4B-XH-A-1"
-			(at 5.94 6 270)
+		(property "Value" "JST"
+			(at 5.94 6 90)
 			(layer "F.Fab")
-			(uuid "60c1eced-0c4a-485e-bc37-2b767d9d55a1")
+			(uuid "5356ac2c-c5a1-4e3f-8421-2ba5b7e3d4a2")
 			(effects
 				(font
 					(size 1 1)
@@ -236,10 +236,10 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b0df08a9-d05f-4213-9fe2-932088afc793")
+			(uuid "6e0dd052-3ac8-488c-a99d-883565fbd8c2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -248,10 +248,10 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eff51cea-54c7-4f88-a892-69715cd106fd")
+			(uuid "6bc881df-8dff-4c00-aaad-4843f744dbd5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -557,7 +557,7 @@
 			(uuid "0e132e61-5c11-4f1f-b0ae-c60c1ef36d39")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.94 4.1 270)
+			(at 5.94 4.1 90)
 			(layer "F.Fab")
 			(uuid "0eba3fe0-314b-4201-b768-74baa0283d82")
 			(effects
