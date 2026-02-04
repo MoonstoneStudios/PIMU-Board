@@ -4548,7 +4548,7 @@
 				)
 			)
 		)
-		(property "Value" "S4B-XH-A-1"
+		(property "Value" "JST_VH_B4P-VH-B"
 			(at 207.645 31.75 0)
 			(effects
 				(font
