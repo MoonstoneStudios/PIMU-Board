@@ -6,12 +6,12 @@
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
-        "board_outline_line_width": 0.05,
-        "copper_line_width": 0.2,
+        "board_outline_line_width": 0.0381,
+        "copper_line_width": 0.254,
         "copper_text_italic": false,
-        "copper_text_size_h": 1.0,
-        "copper_text_size_v": 1.0,
-        "copper_text_thickness": 0.2,
+        "copper_text_size_h": 1.524,
+        "copper_text_size_v": 1.524,
+        "copper_text_thickness": 0.3048,
         "copper_text_upright": false,
         "courtyard_line_width": 0.05,
         "dimension_precision": 4,
@@ -41,11 +41,11 @@
           "height": 1.27,
           "width": 2.54
         },
-        "silk_line_width": 0.15,
+        "silk_line_width": 0.1524,
         "silk_text_italic": false,
-        "silk_text_size_h": 0.8,
-        "silk_text_size_v": 0.8,
-        "silk_text_thickness": 0.15,
+        "silk_text_size_h": 0.8128,
+        "silk_text_size_v": 0.8128,
+        "silk_text_thickness": 0.1524,
         "silk_text_upright": false,
         "zones": {
           "min_clearance": 0.5
@@ -136,10 +136,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.2,
-        "min_track_width": 0.1,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.6,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -189,10 +189,10 @@
       ],
       "track_widths": [
         0.0,
+        0.15,
         0.2,
         0.4,
-        0.6,
-        1.0
+        0.6
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -226,8 +226,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.5,
-          "drill": 0.2
+          "diameter": 0.6,
+          "drill": 0.3
         },
         {
           "diameter": 0.9,
@@ -484,7 +484,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.15,
+        "clearance": 0.127,
         "diff_pair_gap": 0.254,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1524,
@@ -495,8 +495,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
-        "via_diameter": 0.7,
+        "track_width": 0.127,
+        "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       }
@@ -513,10 +513,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../../../Documents/RSX Schems/",
+      "plot": "Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "PIMU Suite.step",
       "svg": "",
       "vrml": ""
     },
